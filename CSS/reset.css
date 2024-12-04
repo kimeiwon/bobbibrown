@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 빅숄더 디스플레이 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* 프리텐다드 웹폰트 */
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+/* 라사 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+html,
+body {
+    font-family: 'Pretendard', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    color: #eaeaea;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+img,
+svg,
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.wrap {
+    background-color: #222;
+}
